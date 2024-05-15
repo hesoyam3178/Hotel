@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="pics/TitleIcon.png" type="image/x-icon">
+    <title>Elysian Escapes</title>
+  </head>
+  <body>
+    <nav>
+        <div class="nav__content" id="home">
+          <div class="logo"><a href="#">Elysian Scapes</a></div>
+          <label for="check" class="checkbox">
+            <i class="ri-menu-5-line"></i>
+          </label>
+          <input type="checkbox" name="check" id="check" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#Rooms">Rooms</a></li>
+            <li><a href="#ammenities">Amenities</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <submit value="submit" id="submit">Book Now</submit>
+          </ul>
+        </div>
+      </nav>
+
+    <header class="section__container header__container">
+      <div class="header__image__container">
+        <div class="header__content">
+          <h1>Book Your Dream Getaway</h1>
+          <p>Book your stay today and let us exceed your expectations at every turn.</p>
+        </div>
+        <div class="booking__container">
+          <form>
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" />
+                <label>Check In</label>
+              </div>
+              <p>Add date</p>
+            </div>
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" />
+                <label>Check Out</label>
+              </div>
+              <p>Add date</p>
+            </div>
+            <div class="form__group">
+              <div class="input__group">
+                <input type="text" />
+                <label>Guests</label>
+              </div>
+              <p>Add guests</p>
+            </div>
+          </form>
+          <button class="btn"><i class="ri-search-line"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container popular__container" id="Rooms">
+      <h2 class="section__header">Our Rooms</h2>
+      <div class="popular__grid">
+        <div class="popular__card">
+          <img src="pics/luxury.png" alt="popular hotel" />
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>Luxury/Premium Room</h4>
+              <h4>₱10,000</h4>
+            </div>
+            <p>Experience unparalleled luxury in our meticulously crafted rooms.</p>
+          </div>
+        </div>
+
+        <div class="popular__card">
+          <img src="pics/family.png" alt="popular hotel" />
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>Family Room</h4>
+              <h4>₱8,000</h4>
+            </div>
+            <p>Create unforgettable family memories in our spacious and inviting family rooms.</p>
+          </div>
+        </div>
+
+        <div class="popular__card">
+          <img src="pics/executive.png" alt="popular hotel" />
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>Executive Room</h4>
+              <h4>₱7,000</h4>
+            </div>
+            <p>Experience luxury in our executive rooms, designed for discerning travelers.</p>
+          </div>
+        </div>
+
+        <div class="popular__card">
+          <img src="pics/deluxe.png" alt="popular hotel" />
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>Deluxe Room</h4>
+              <h4>₱5,000</h4>
+            </div>
+            <p>Discover comfort and style in our deluxe rooms.</p>
+          </div>
+        </div>
+
+        <div class="popular__card">
+          <img src="pics/suite.png" alt="popular hotel" />
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>Suite Room</h4>
+              <h4>₱3,000</h4>
+            </div>
+            <p>Indulge in luxury with our suite rooms.</p>
+          </div>
+        </div>
+
+        <div class="popular__card">
+          <img src="pics/standard.png" alt="popular hotel" />
+          <div class="popular__content">
+            <div class="popular__card__header">
+              <h4>Standard Room</h4>
+              <h4>₱1,000</h4>
+            </div>
+            <p>Enjoy comfort and convenience in our standard rooms</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ammenities" id="ammenities">
+      <div class="section__container ammenities__container">
+        <h2 class="section__header">Amenities</h2>
+        <div class="ammenities__grid">
+          
+            <div class="ammenities__card">
+            <span><i class="ri-wifi-line"></i></span>
+            <h2>Free Wifi</h2>
+          </div>
+          
+          <div class="ammenities__card">
+            <span><i class="ri-parking-fill"></i></span>
+            <h2>Free Parking</h2>
+          </div>
+
+          <div class="ammenities__card">
+            <span><i class="ri-cup-line"></i></span>
+            <h2>Free Breakfast</h2>
+          </div>
+
+          <div class="ammenities__card">
+            <span><i class="fas fa-swimmer"></i></span>
+            <h2>Indoor Pool</h2>
+          </div>
+
+          <div class="ammenities__card">
+            <span><i class="fas fa-dumbbell"></i></span>
+            <h2>Gym</h2>
+          </div>
+
+          <div class="ammenities__card">
+            <span><i class="fas fa-credit-card"></i></span>
+            <h2>Accepted<br>Cashless Payment</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section__container contact__container" id="contact">
+      <h2 class="section__header">Connect With Us</h2>
+      <div class="contact__grid">
+      <div class="container">
+        <div class="content">
+            <div class="left-side">
+                <div class="address details">
+                    <i class="ri-map-pin-fill"></i>
+                    <div class="topics">Address</div>
+                    <div class="text-one">Cabanatuan City</div>
+                    <div class="text-two">Nueva Ecija, 3100</div>
+                </div>
+
+                <div class="phone details">
+                    <i class="ri-phone-fill"></i>
+                    <div class="topics">Phone Number</div>
+                    <div class="text-one">(+63) 912 345 6789</div>
+                </div>
+
+                <div class="email details">
+                    <i class="ri-mail-fill"></i>
+                    <div class="topics">Email</div>
+                    <div class="text-one">vinskiledesma29@gmail.com</div>
+                </div>    
+            </div>
+
+            <div class="right-side">
+                <div class="topic-text">Get in touch!</div>
+                <p>Dive into possibility! Seeking partnerships, curious about my work, or just want to chat? This is where it begins. Your message sparks new opportunities. Reach out—I'm ready for our conversation.</p>
+            <form action="">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Email Address">
+                </div>
+                <div class="input-box message-box">
+                    <textarea placeholder="Write a message..."></textarea>
+                </div>
+                <div class="button">
+                   <input type="button" value="Submit">
+                </div>
+            </form>
+        </div>
+      </div>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+      <div class="footer__container">
+          <div class="sec aboutus">
+              <h2>About Us</h2>
+              <p>Discover comfort, luxury, and unmatched hospitality at Elysian Scapes. Established in 2010, we've been a trusted destination for travelers for 24 years. 
+                From cozy rooms to world-class facilities, every aspect of your stay is designed for your comfort and enjoyment. 
+                Experience the warmth of our hospitality and create unforgettable memories with us.</p>
+              <ul class="sci">
+                  <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                  <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+                  <li><a href="#"><i class="ri-snapchat-fill"></i></a></li>
+                  <li><a href="#"><i class="ri-google-fill"></i></a></li>
+              </ul>
+          </div>
+
+          <div class="sec quicklinks">
+              <h2>Support</h2>
+              <ul>
+                  <li><a href="">FAQ</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Help</a></li>
+                  <li><a href="">Contact</a></li>
+              </ul>
+          </div>
+
+          <div class="sec contact">
+          <h2>Contact</h2>
+          <ul class="info">
+          <li>
+              <span><i class="ri-phone-line"></i></span><p><a href="#">(+63)912 345 6789</a></p>
+          </li>
+          </ul>
+
+          <ul class="info">
+          <li>
+              <span><i class="ri-mail-fill"></i></span><p><a href="#">vinskiledesma29@gmail.com</a></p>
+          </li>
+          </ul>
+
+          </div>
+      </div>
+  </footer>
+  <div class="copyrightText">
+      <p>&copy; MarvinL. | All Rights Reserved.</p>
+  </div>
+
+
+  </body>
+</html>
